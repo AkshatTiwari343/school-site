@@ -1,0 +1,93 @@
+﻿.head1 h1{
+	float:left;
+	color:white;
+	background:transparent;
+	font-family: "Times New Roman", Times, serif;
+	font-size:xx-large;
+}
+.head2 h4{
+    position: absolute;
+    left:7%;
+    font-size: 15pX;
+    top:10%;
+    color:white;
+	background:transparent;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.list{
+    border-bottom-width: 900px;
+    border-bottom: 1px solid darkgray;
+    padding:12px; 
+    float: left;
+}
+
+.list ul li{
+    float: right;
+    text-align: center;
+    width: 70px;
+    list-style-type: none;
+}
+
+
+.list ul li a{
+    text-decoration: none; 
+    color:white;
+
+}
+
+.list ul li a:hover{
+    border-bottom: 4px solid brown;
+    padding: 2px;
+}
+
+body{
+    background:url(learn_1.jpg)no-repeat;
+    background-size: cover;
+    font-family: titillium web,sans-serif;
+    background-attachment: fixed;
+
+}
+
+.writer{
+    width: 650px;
+    float: right;
+}
+
+.writer h3{
+    font-family:"Times New Roman", Times, serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+    text-shadow:none;
+    padding-top: 50px;
+    line-height: 50px;
+}
+
+.writer h4{
+    font-family:"Poppins", Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    width: 600px;
+    position: absolute;
+    top:50%;
+    opacity: 0.6;
+}
+
+.writer form input[type=submit]{
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    border: none;
+    border-radius:10px;
+    color:white;
+    background-color: crimson;
+    text-transform: uppercase;
+    padding: 10px;
+    
+    
+}
+
+.writer form input[type=submit]:hover{
+    background: green;
+    
+}

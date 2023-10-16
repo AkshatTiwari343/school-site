@@ -1,0 +1,146 @@
+<html>
+    <head>
+        
+    <link type="text/css" rel="stylesheet" href="courses.css">
+
+    </head>
+    
+    <body>
+        
+             
+        <div class="head1">
+        <h1>SUNBEAM ENGLISH SCHOOL</head> 
+        </div>
+        
+        <div class="head2"> 
+        <h4>DUTY . DEVOTION . DISCIPLINE .</h4>
+        </div>
+
+        <div class="list">
+        
+            <ul>
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="aboutus.html">About Us</a></li>
+            <li> <a href="courses.html">Courses</a></li>
+            <li> <a href="events.html">Events</a></li>
+            <li> <a href="gallery.html">Gallery</a></li>
+            <li> <a href="covid.html">Covid-19 Update</a></li>
+            <li> <a href="contact.html">Contact</a></li>
+        
+            </ul>
+        
+        
+        </div>
+        <div class="box1">
+            <div><a href="#" onclick="GetClassSyllabus('I'); return false;">CLASS 1</a></DIV><hr height=1px color=white>
+            <div><a href="#" onclick="GetClassSyllabus('II'); return false;">CLASS 2</a></DIV><hr height=1px color=white>
+            <div><a href="#" onclick="GetClassSyllabus('III'); return false;">CLASS 3</a></DIV><hr height=1px color=white>
+            <div><a href="#" onclick="GetClassSyllabus('IV'); return false;">CLASS 4</a></DIV><hr height=1px color=white>
+            <div><a href="#" onclick="GetClassSyllabus('V'); return false;">CLASS 5</a></DIV><hr height=1px color=white>
+            <div><a href="#" onclick="GetClassSyllabus('VI'); return false;">CLASS 6</a></DIV><hr height=1px color=white>
+            <div><a href="#" onclick="GetClassSyllabus('VII'); return false;">CLASS 7</a></DIV><hr height=1px color=white>
+            <div><a href="#" onclick="GetClassSyllabus('VIII'); return false;">CLASS 8</a></DIV><hr height=1px color=white>
+            <div><a href="#" onclick="GetClassSyllabus('IX'); return false;">CLASS 9</a></DIV><hr height=1px color=white>
+            <div><a href="#" onclick="GetClassSyllabus('X'); return false;">CLASS 10</a></DIV><hr height=1px color=white>
+            <div><a href="#" onclick="GetClassSyllabus('XI'); return false;">CLASS 11</a></DIV><hr height=1px color=white>
+            <div><a href="#" onclick="GetClassSyllabus('XII'); return false;">CLASS 12</a></DIV>
+        </div>
+       <div class="box2" id="syllabus">
+     Click the class link to view syllabus and fees of the session
+       </div>
+       </div>
+
+       <script type="text/javascript">
+
+        function GetClassSyllabus(standard) {
+        var para = document.getElementById('syllabus')
+        var fundamentalSubjects = `
+        <li> Mathematics</li>
+        <li> English</li>
+        <li> Hindi</li>
+        `
+        var ccaSubs =  `<li> General Knolwledge (GK)</li>
+        <li> Computer </li>
+        <li> Arts</li>
+        <li> Music</li>
+        <li> Physical Training</li>`
+        var subjects = `Class - `
+        subjects = subjects.concat(standard)
+        subjects = subjects.concat(' Syllabus')
+        subjects = subjects.concat('<ul>')
+        
+        subjects = subjects.concat(fundamentalSubjects)
+        console.debug(standard)
+        switch (standard) {
+            case 'I':
+            case 'II':
+            case 'III':
+            case 'IV':
+                subjects = subjects.concat(`<li> Environmental Science (EVS)</li>`)
+                break;
+            case 'V':
+            case 'VI':
+            case 'VII':
+            case 'VIII':
+            case 'IX':
+            case 'X':
+                subjects = subjects.concat(`<li> Sanskrit</li>`)
+                subjects = subjects.concat(`<li> Social Studies (SST)</li>`)
+                subjects = subjects.concat(`<li> Science</li>`)
+                break;
+            case 'XI':
+            case 'XII':
+                subjects = subjects.concat(`<li> Physics</li>`)
+                subjects = subjects.concat(`<li> Chemistry</li>`)
+                subjects = subjects.concat(`<li> Biology</li>`)
+                subjects = subjects.concat(`<li> History</li>`)
+                subjects = subjects.concat(`<li> Political Sciences</li>`)
+                subjects = subjects.concat(`<li> Economics</li>`)
+                subjects = subjects.concat(`<li> Web Application</li>`)
+                subjects = subjects.concat(`<li> Computer Science </li>`)
+                subjects = subjects.concat(`<li> Informatics Practices</li>`)
+                subjects = subjects.concat(`<li> Business Studies</li>`)
+                subjects = subjects.concat(`<li> Accountancy</li>`)
+
+
+
+                break;
+            default:
+                break;
+        
+        }
+        subjects = subjects.concat(ccaSubs)
+        subjects = subjects.concat('</ul>')
+        switch (standard) {
+            case 'I':
+            case 'II':
+            case 'III':
+            case 'IV':
+            case 'V':
+                    subjects = subjects.concat('&nbsp; Fees : Rs. 80,000 Annually')
+                    break;
+        case 'VI':
+            case 'VII':
+            case 'VIII':
+            case 'IX':
+            case 'X':
+                subjects = subjects.concat('&nbsp; Fees : Rs. 1,50,000 Annually')
+                break;
+            case 'XI':
+            case 'XII':
+                subjects = subjects.concat('&nbsp; Fees : Rs. 2,00,000 Annually')
+                break;
+            default:
+                break;
+        
+        }
+        para.innerHTML = subjects
+            
+        }
+            
+            
+            
+            </script>
+
+       </body>
+       </html>

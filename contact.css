@@ -1,0 +1,91 @@
+﻿.head1 h1{
+	float:left;
+	color:white;
+	background:transparent;
+	font-family: "Times New Roman", Times, serif;
+	font-size:xx-large;
+}
+.head2 h4{
+    position: absolute;
+    left:7%;
+    top:10%;
+    color:white;
+	background:transparent;
+	font-family: "Times New Roman", Times, serif;
+	font-size:15px;
+}
+.list{
+    border-bottom-width: 900px;
+    border-bottom: 1px solid darkgray;
+    padding:12px; 
+    float: right;
+}
+
+.list ul li{
+    float: left;
+    text-align: center;
+    width: 70px;
+    list-style-type: none;
+}
+
+
+.list ul li a{
+    text-decoration: none; 
+    color:white;
+
+}
+
+.list ul li a:hover{
+    border-bottom: 4px solid brown;
+    padding: 2px;
+}
+
+body{
+    background: url(learn_1.jpg)no-repeat;
+    background-size: cover;
+    font-family: latha;
+    background-attachment: fixed;
+
+}
+h1{
+	float:left ;
+}
+h2{
+   float:left;
+}
+.contact{	  
+    width:600px;
+    margin: 5px;
+    position: absolute;
+    left:50%;
+    top:29%;
+    padding: 10px;
+    background: transparent;
+    color:white;
+    border-radius: 8px;
+    font-family: cairo,sans-serif;
+
+	
+}
+.contact h1{
+	color: cyan;
+	font-size: 40px;
+}
+.contact a{
+	color: cyan;
+	font-size:30px;
+
+}
+.location{
+	width:600px;
+	height:600px;
+	background: transparent;
+	opacity:0.8;
+	position: absolute;
+	left:3%;
+	top:29%; 
+}
+.location:hover{
+  opacity:0.6;
+	
+}

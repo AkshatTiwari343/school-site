@@ -1,0 +1,65 @@
+﻿.head1 h1{
+	float:left;
+	color:white;
+	background:transparent;
+	font-family: "Times New Roman", Times, serif;
+	font-size:xx-large;
+}
+.head2 h4{
+    position: absolute;
+    left:7%;
+    top:10%;
+    color:white;
+	background:transparent;
+	font-family: "Times New Roman", Times, serif;
+	font-size:15px;
+}
+
+.list{
+    border-bottom-width: 900px;
+    border-bottom: 1px solid darkgray;
+    padding:12px; 
+    float: right;
+}
+
+.list ul li{
+    float: left;
+    text-align: center;
+    width: 70px;
+    list-style-type: none;
+}
+
+
+.list ul li a{
+    text-decoration: none; 
+    color:white;
+
+}
+
+.list ul li a:hover{
+    border-bottom: 4px solid brown;
+    padding: 2px;
+}
+
+body{
+    background: url(learn_1.jpg)no-repeat;
+    background-size: cover;
+    font-family: latha;
+    background-attachment: fixed;
+
+}
+.covid{
+	background: black ;
+	opacity:0.8;
+	border-radius:8px;
+	position:absolute;
+	left:4%;
+	top: 30%;
+	color: white;
+	padding:10px;
+	margin: 5px;
+}
+.covid h1{
+	color: cyan;
+	font-weight: bold ;
+}

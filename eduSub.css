@@ -1,0 +1,100 @@
+﻿.head1 h1{
+	float:left;
+	color:white;
+	background:transparent;
+	font-family: "Times New Roman", Times, serif;
+	font-size:xx-large;
+}
+.head2 h4{
+    position: absolute;
+    left:7%;
+    top:10%;
+    color:white;
+	background:transparent;
+	font-family: "Times New Roman", Times, serif;
+	font-size:15px;
+
+	
+}
+
+.list{
+    border-bottom-width: 900px;
+    border-bottom: 1px solid darkgray;
+    padding:12px; 
+    float: right;
+}
+
+.list ul li{
+    float: left;
+    text-align: center;
+    width: 70px;
+    list-style-type: none;
+}
+
+
+.list ul li a{
+    text-decoration: none; 
+    color:white;
+
+}
+
+.list ul li a:hover{
+    border-bottom: 4px solid brown;
+    padding: 2px;
+}
+
+
+body{
+    background:url(learn_1.jpg)no-repeat;
+    background-size: cover;
+    font-family: latha;
+    background-attachment: fixed;
+
+}
+
+.signup{
+    width: 900px;
+    margin: 5px;
+    position: absolute;
+    left: 10%;
+    top:22%;
+    border: 1px solid black;
+    padding: 10px;
+    background: black;
+    color:white;
+    border-radius: 8px;
+    opacity: 0.6;
+    font-family: cairo,sans-serif;
+}
+
+.signup form input{
+    
+    padding: 10px;
+    border: none;
+    margin: 10px auto;
+    width:895px
+}
+.signup form input[type=radio]{
+     width:12px;
+}
+
+.signup h3{
+    border-bottom: 1px solid darkgray;
+    text-align:center;
+    text-transform: uppercase;
+    font-family: cairo, sans-serif;
+    padding: 5px;
+    text-shadow: 1px 1px 1px;
+    font-weight: bold;
+    padding-top: -20px auto;
+    line-height: 2px;
+    font-size: 20px;
+}
+
+.signup input[type=submit]{
+    color:white;
+    background-color: steelblue;
+    width:895px;
+    border-radius: 5px;
+    
+}

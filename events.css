@@ -1,0 +1,87 @@
+﻿.head1 h1{
+	float:left;
+	color:white;
+	background:transparent;
+	font-family: "Times New Roman", Times, serif;
+	font-size:xx-large;
+}
+.head2 h4{
+    position: absolute;
+    left:7%;
+    font-size: 15pX;
+    top:10%;
+    color:white;
+	background:transparent;
+	font-family: "Times New Roman", Times, serif;
+}
+.list{
+    border-bottom-width: 900px;
+    border-bottom: 1px solid darkgray;
+    padding:12px; 
+    float: right;
+}
+
+.list ul li{
+    float: left;
+    text-align: center;
+    width: 70px;
+    list-style-type: none;
+}
+
+
+.list ul li a{
+    text-decoration: none; 
+    color:white;
+
+}
+
+.list ul li a:hover{
+    border-bottom: 4px solid brown;
+    padding: 2px;
+}
+
+body{
+    background:url(learn_1.jpg)no-repeat;
+    background-size: cover;
+    font-family: latha;
+    background-attachment: fixed;
+
+}
+.c h1{
+	background: transparent ;
+	color: aqua ;
+	font-size: x-large ;
+	position: absolute ;
+	left: 2%;
+	top: 29%;
+}
+.c h2{
+	background: black ;
+	position: absolute;
+	border-radius:8px;
+	left: 2%;
+	top: 35%;
+	font-size: 22px ;
+	color: white;
+	opacity:0.8;
+	width:94%;
+	
+}
+
+.c h3{
+	background: transparent ;
+	color: aqua ;
+	font-size: xx-large ;
+	position: absolute ;
+	left: 2%;
+	top: 840px;
+	font-weight: bold;
+
+}
+.c iframe{
+	position: absolute ;
+	top:80%;
+	width:60%;
+	height:400px;
+	left:20%;
+}
