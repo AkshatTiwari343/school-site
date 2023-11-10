@@ -61,6 +61,7 @@ body{
 	border-radius:8px;
 	left: 2%;
 	top: 35%;
+	padding: 10px;
 	font-size: 22px ;
 	color: white;
 	opacity:0.8;
@@ -74,8 +75,12 @@ body{
 	font-size: xx-large ;
 	position: absolute ;
 	left: 2%;
-	top: 840px;
+	top: 1000px;
 	font-weight: bold;
+	background: black ;
+	opacity:0.8;
+	border-radius:8px;
+	padding: 10px;
 
 }
 .c iframe{
